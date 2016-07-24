@@ -1,5 +1,6 @@
  $(document).ready(function() {
  var lang = 0;
+     
  
  
 $('div#langs').click(function() {

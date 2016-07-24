@@ -1,10 +1,13 @@
 @import "grandfile.less";
 
-h1 {font-size: 56px; font-weight: 700;}
-h2 {font-size: 30px; font-weight: 700;}
-h3 {font-size: 28px; font-weight: 700;}
-h4 {font-size: 20px; font-weight: 700;}
-h6 {font-size: 13px; font-weight: 700; .m-speed;}
+
+h1, h2, h3, h4, h5, h6 { .m-speed; font-weight: 700;}
+
+h1 {font-size: 56px;}
+h2 {font-size: 30px;}
+h3 {font-size: 28px;}
+h4 {font-size: 20px;}
+h6 {font-size: 13px;}
 
 .wrap {float: left; width: 100%}
 .index {top:100%;}
@@ -12,6 +15,13 @@ h6 {font-size: 13px; font-weight: 700; .m-speed;}
 .content {position: relative; display: block; margin: 0 auto; width: 1180px;}
 section {min-height: 900px; width: 100%}
 .fp-tableCell {position: relative !important; .ab-tab}
+
+// block "logo" for header / footer
+.logo-b {position: relative; float: left; display: inline-table; height: 100%;
+.logo {display: block; height: 64px; width: 216px; margin-top: -17px; margin-left: 32px; .bgCCC;
+background: url(../img/logo.png);}    
+}
+    
 
 
 
@@ -28,11 +38,7 @@ span::after {content:''; position: absolute; display: block; height: 2px; width:
 text-transform: uppercase;}   
 }
 
-.logo-b {position: relative; float: left; display: inline-table; height: 100%;
-.logo {display: block; height: 64px; width: 216px; margin-top: -17px; margin-left: 32px; .bgCCC;
-background: url(../img/logo.png);}    
-}
-    
+
 .nav-b {position: relative; float: left; display: inline-table; height: 100%;
 nav {display: block; margin-left: 45px;
 a {color: @coltxt2; font-size: 12px; font-weight: 600; margin: -10px 10px; text-transform: uppercase; } 
@@ -58,10 +64,11 @@ background: url(../img/sear.png); .bgCCC;}
 #sb {position: absolute; width: 16px; height: 10px; background: url(../img/sty-b.png); .bgCCC; right: 12px; top: 17px; }
 
 }
-    
-    
+  
    
  }
+
+.sca{position: fixed; top:0px; left: 0px; height: 90px; width: 100%; background: #fff; box-shadow: 0px 1px 50px 0px rgba(0, 0, 0, 0.07); z-index: 999999999;}
 
 .shadow {
   background-color: rgb(255, 255, 255);
@@ -79,7 +86,7 @@ background: url(../img/sear.png); .bgCCC;}
 
 
 .home { .bgCC; min-height: 900px; display:block; width: 100%;
-.ab-tab {height: ~"calc(100% - 139px)"; top:auto; bottom:0px}
+.ab-tab {height: ~"calc(100% - 139px)"; top: 130px;}
 .fade {  position: absolute; left: 0px; top: -56px; height: 296px; width: 100%;
   background-image: -moz-linear-gradient( -90deg, rgba(0,0,0,0.56078) 0%, rgba(2,2,2,0.28) 37%, rgba(3,3,3,0.24) 47%, rgba(6,6,6,0) 100%);
   background-image: -webkit-linear-gradient( -90deg, rgba(0,0,0,0.56078) 0%, rgba(2,2,2,0.28) 37%, rgba(3,3,3,0.24) 47%, rgba(6,6,6,0) 100%);
@@ -107,7 +114,12 @@ background: url(../img/foot3.png);}
 .social {position: absolute; display: table; top:0px; right: 0px; width: 210px; height: 100%; padding: 15px 50px 0 0;
 a{display: inline-block; float: right; padding:10px; 
 i {position: relative; margin: 0 auto; color: #fff; font-size: 18px; min-width: 15px;}}    
-a:hover{margin-top: -5px; i{color:@colfirm; .m-speed;}}    
+a:hover{margin-top: -5px; 
+.fa-vk {color:#507299;} 
+.fa-facebook {color:#3464ff;}
+.fa-twitter {color:#1da1f2;} 
+.fa-instagram {color:#7d5440;}  
+}    
 }
 } 
     
@@ -145,8 +157,8 @@ p {color: #fff; margin:20px 5px; line-height: 1.5;}
 }
 
 
-.news {position: relative; background: #fefefe; display: table;
-.ab-tab {height: ~"calc(100% - 139px)"; top:auto; bottom:0px}
+.news {position: relative; background: #fefefe; display: block;
+.ab-tab {height: ~"calc(100% - 139px)"; top: 130px;}
 .t-line {float: left; width: 100%;
 h3{color: @coltxt; float: left; display: inline-block; padding-right: 35px;}
 .but-news {float: left; display: inline-block; background: #f3f3f3; border-radius: 25px;
@@ -204,4 +216,69 @@ background: @colfirm; margin-left: 12px;    }
     }
    
 }
+
+
+
+
+.invest {position: relative; background: #fefefe; display: block; .bgCC;
+background: url(../img/prbg.jpg);
+.phbg {.abs; .bgCC;
+.ph {.abs; background-color: rgb(23, 23, 23); opacity: 0.502; .m-speed;}    
+}
+.ab-tab {height: ~"calc(100% - 139px)"; top: 130px;}
+h3, h4{color: #fff;}    
+.invest-block {float: left; width: 100%; margin-top: 40px; margin-left: -5px;  
+.one {position: relative; float: left; display: inline-table; width: 50%; height: 405px; .bgCC; 
+border-left: solid 5px transparent; border-right: solid 5px transparent;   
+h4 {text-align: center; margin-top: 32px;}
+i{position: relative; display: block;  width: 60px; height: 60px; margin: 0 auto; .bgCCC;}    
+.one-t-b {float: left; width: 100%; height: 100%;}
+.one-b {position: relative; float: left; display: block; width: 100%; height: 50%; .bgCC;}
+.one-b:first-child { border-bottom: solid 5px transparent;}
+.one-b:last-child { border-top: solid 5px transparent;}
+}
+.hov:hover {.ph {opacity: 0.65;} h4{color: @colfirm;}}        
+}
+.partners {float: left; width: 100%; margin-top: 55px;
+.one {float: left; width: 25%; height: 50px;
+img {width: auto;}
+    }    
+}
+
+}
+
+
+
+
+
+
+footer {position: relative; background: #fefefe; display: block; height: 300px!important;
+.h-block {float: left; width: 100%; height: 161px; border-bottom: solid 1px #eeeeee;
+.logo {margin-left: 0px;}
+.desc-b {position: relative; float: left; display: inline-table; height: 100%; margin-left: 40px; margin-top: 5px;
+span {display: block; font-size: 13px; font-weight: 700;  margin: 8px 0;}  
+.copy-p {color: #969696;}
+}
+    
+.linked-b {position: relative; float: right; display: inline-table; height: 100%;  margin-top: -4px; 
+.sl-v {position: relative; margin-left:90px; display: inline-block; color: #2a2a2a; font-weight: 600; font-size: 13px; 
+border-bottom: 1px dashed;}
+.sl-v:hover {color: @colfirm;}
+.sl-v::before {content: ''; position: absolute; display: block; left:-28px; top:3px; width: 18px; height: 18px;
+background: url(../img/foot3.png); .bgCCC;}
+.sl-v:last-child::before {background: url(../img/foot4.png);}
+}}
+.boot-b {float: left; width: 100%; height: 140px;
+.nav{position: relative; float: left; display: inline-table; height: 100%; width: 100%; margin-top: -10px;
+.nv{margin-left: -5px; float: left; width: 100%; display:inline-block;}
+a {color: @coltxt; font-size: 12px; font-weight: 600; margin: -10px 10px; font-weight: 600;} 
+a.qwerty {font-size: 14px; display: inline-block; color: #9d9d9d; float: right; margin: -18px 0 0;
+    span {text-transform: uppercase;} .qw {color: #d21313} .rt {color:#484848}}
+a:hover {color: @colfirm;}    
+}
+    
+}
+  
+}
+
 
