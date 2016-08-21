@@ -1,0 +1,97 @@
+doctype html
+html
+  head
+    include include/head.jade
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,700italic,800&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+  body
+    header
+        include include/header.jade      
+    div.wrapper
+        section.administraiton--home--image
+            .content
+                .middle
+                    h1 Административно-территориальное <br> устройство
+        section.administraiton--home--section
+            .content
+                .left-block
+                    .title-block.active
+                        a.ico 
+                            .middle <i></i>
+                        h4 О регионе
+                    ul
+                        li.active: a Административно-территориальное устройство
+                        li: a Безопасность
+                        li: a Климат
+                        li: a Население
+                        li: a Природные ресурсы
+                        li: a Справка о регионе
+                        li: a Транспорт и логистика
+                        li: a Туристический потенциал
+  
+                    .title-block
+                        a.ico 
+                            .middle <i></i>
+                        h4 Отрасли
+                    ul
+                                                
+                    .title-block
+                        a.ico 
+                            .middle <i></i>
+                        h4 Регион для жизни
+                    ul
+                                                                        
+                    .title-block
+                        a.ico 
+                            .middle <i></i>
+                        h4 Социально-экономические показатели
+                    ul
+                .right--block
+                    .title--block
+                        .middle
+                            h2 Административно-территориальное <br> устройство
+                    article
+                        p Смоленская область, в современном понимании, образована <b>27 сентября 1937 года.</b> В настоящий момент входит в состав Центрального федерального округа.
+                    .table-ons
+                    
+                        .one
+                            .one-block
+                                .middle
+                                    span.title Смоленск
+                                        .title-desc областной центр
+                        
+                    
+                        .one
+                            .one-block
+                                .middle
+                                    span.title 2
+                                        .title-desc городских округа
+                        
+                    
+                        .one
+                            .one-block
+                                .middle
+                                    span.title 25
+                                        .title-desc муниципальных <br> районов
+                                            
+                        .one
+                            .one-block
+                                .middle
+                                    span.title 24
+                                        .title-desc муниципальных <br> районов
+                                            
+                        .one
+                            .one-block
+                                .middle
+                                    span.title 278
+                                        .title-desc городских <br> поселения
+                    h4 Крупные города
+                    .content--slider--block
+                        .slider--wrapper
+                            .slide(style="background: url(img/smolinsk.jpg)")
+                    h4 Пограничные государства
+                    img(src="img/map.jpg")
+        include include/footer.jade
+                    
+
+
+                        
