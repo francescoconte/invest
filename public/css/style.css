@@ -2685,6 +2685,7 @@ footer .boot-b .nav a:hover {
   padding: 14px 0;
   float: left;
   width: 100%;
+  display: none;
 }
 .administraiton--home--section .left-block ul li a {
   color: #3b3b3b;
@@ -2696,8 +2697,11 @@ footer .boot-b .nav a:hover {
 .administraiton--home--section .left-block ul .active a {
   font-weight: 700 !important;
 }
+.administraiton--home--section .left-block ul#sub-1 li {
+  display: block;
+}
 .administraiton--home--section .right--block {
-  float: left;
+  float: right;
   width: 730px;
   background: #fff;
   box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.07);
@@ -2793,6 +2797,7 @@ footer .boot-b .nav a:hover {
   width: 100%;
   float: left;
   position: relative;
+  overflow: hidden;
 }
 .administraiton--home--section .right--block .content--slider--block .slider--wrapper {
   position: absolute;
@@ -2801,14 +2806,80 @@ footer .boot-b .nav a:hover {
   width: 100%;
   left: 0px;
   right: 0px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
 }
 .administraiton--home--section .right--block .content--slider--block .slider--wrapper .slide {
-  width: 100%;
   height: 100%;
   float: left;
   background-position: CENTER CENTER !important;
   background-repeat: no-repeat !important;
   background-size: COVER !important;
+  position: relative;
+}
+.administraiton--home--section .right--block .content--slider--block .slider--wrapper .slide .slide-title-block {
+  position: absolute;
+  display: block;
+  bottom: 60px;
+  left: 45px;
+}
+.administraiton--home--section .right--block .content--slider--block .slider--wrapper .slide .slide-title-block .title {
+  font-size: 55px;
+  color: #fff;
+  font-weight: 700;
+  display: block;
+  margin-left: -5px;
+}
+.administraiton--home--section .right--block .content--slider--block .slider--wrapper .slide .slide-title-block .title-desc {
+  margin-top: 30px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 24px;
+}
+.administraiton--home--section .right--block .content--slider--block .slider--wrapper .slide .slide-title-block .title-desc b {
+  font-weight: 700;
+  color: #54d036;
+}
+.administraiton--home--section .right--block .content--slider--block .slider--nav {
+  position: absolute;
+  display: block;
+  bottom: 60px;
+  right: 27px;
+}
+.administraiton--home--section .right--block .content--slider--block .slider--nav li {
+  float: left;
+  display: inline-table;
+  width: 40px;
+  height: 40px;
+  background-position: CENTER CENTER !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  background: url(../img/ellipse3.png);
+  margin: 0 6px;
+  cursor: pointer;
+}
+.administraiton--home--section .right--block .content--slider--block .slider--nav li i {
+  display: block;
+  background-position: CENTER CENTER !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  background: url(../img/stick.png);
+  width: 8px;
+  height: 14px;
+  margin: 0 auto;
+}
+.administraiton--home--section .right--block .content--slider--block .slider--nav #sl-right i {
+  -moz-transform: rotate(180deg);
+  /* Для Firefox */
+  -ms-transform: rotate(180deg);
+  /* Для IE */
+  -webkit-transform: rotate(180deg);
+  /* Для Safari, Chrome, iOS */
+  -o-transform: rotate(180deg);
+  /* Для Opera */
+  transform: rotate(180deg);
 }
 @media screen and (min-width: 1200px) and (max-width: 1400px) {
   section {

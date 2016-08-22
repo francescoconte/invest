@@ -13,12 +13,12 @@ html
                     h1 Административно-территориальное <br> устройство
         section.administraiton--home--section
             .content
-                .left-block
-                    .title-block.active
+                .left-block#left-sub-menu
+                    .title-block#title-block1.active
                         a.ico 
                             .middle <i></i>
                         h4 О регионе
-                    ul
+                    ul#sub-1
                         li.active: a Административно-территориальное устройство
                         li: a Безопасность
                         li: a Климат
@@ -28,23 +28,47 @@ html
                         li: a Транспорт и логистика
                         li: a Туристический потенциал
   
-                    .title-block
+                    .title-block#title-block2
                         a.ico 
                             .middle <i></i>
                         h4 Отрасли
-                    ul
+                    ul#sub-2
+                        li.active: a Административно-территориальное устройство
+                        li: a Безопасность
+                        li: a Климат
+                        li: a Население
+                        li: a Природные ресурсы
+                        li: a Справка о регионе
+                        li: a Транспорт и логистика
+                        li: a Туристический потенциал
                                                 
-                    .title-block
+                    .title-block#title-block3
                         a.ico 
                             .middle <i></i>
                         h4 Регион для жизни
-                    ul
+                    ul#sub-3
+                        li.active: a Административно-территориальное устройство
+                        li: a Безопасность
+                        li: a Климат
+                        li: a Население
+                        li: a Природные ресурсы
+                        li: a Справка о регионе
+                        li: a Транспорт и логистика
+                        li: a Туристический потенциал
                                                                         
-                    .title-block
+                    .title-block#title-block4
                         a.ico 
                             .middle <i></i>
                         h4 Социально-экономические показатели
-                    ul
+                    ul#sub-4
+                        li.active: a Административно-территориальное устройство
+                        li: a Безопасность
+                        li: a Климат
+                        li: a Население
+                        li: a Природные ресурсы
+                        li: a Справка о регионе
+                        li: a Транспорт и логистика
+                        li: a Туристический потенциал
                 .right--block
                     .title--block
                         .middle
@@ -86,8 +110,18 @@ html
                                         .title-desc городских <br> поселения
                     h4 Крупные города
                     .content--slider--block
-                        .slider--wrapper
+                        .slider--wrapper#slider-wrapper
                             .slide(style="background: url(img/smolinsk.jpg)")
+                                .slide-title-block
+                                    span.title Смоленск
+                                    span.title-desc <b>329 тыс.</b> человек                       
+                            .slide(style="background: url(img/smolinsk.jpg)")
+                                .slide-title-block
+                                    span.title Сафоново
+                                    span.title-desc <b>43 тыс.</b> человек
+                        ul.slider--nav
+                            li#sl-left: <div class="middle"><i></i></div>
+                            li#sl-right: <div class="middle"><i></i></div>
                     h4 Пограничные государства
                     img(src="img/map.jpg")
         include include/footer.jade
