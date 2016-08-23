@@ -4,8 +4,7 @@ html
     include include/head.jade
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,700italic,800&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
   body
-    header
-        include include/header.jade      
+    include include/header.jade      
     div.wrapper
         section.administraiton--home--image
             .content
@@ -13,62 +12,7 @@ html
                     h1 Административно-территориальное <br> устройство
         section.administraiton--home--section
             .content
-                .left-block#left-sub-menu
-                    .title-block#title-block1.active
-                        a.ico 
-                            .middle <i></i>
-                        h4 О регионе
-                    ul#sub-1
-                        li.active: a Административно-территориальное устройство
-                        li: a Безопасность
-                        li: a Климат
-                        li: a Население
-                        li: a Природные ресурсы
-                        li: a Справка о регионе
-                        li: a Транспорт и логистика
-                        li: a Туристический потенциал
-  
-                    .title-block#title-block2
-                        a.ico 
-                            .middle <i></i>
-                        h4 Отрасли
-                    ul#sub-2
-                        li.active: a Административно-территориальное устройство
-                        li: a Безопасность
-                        li: a Климат
-                        li: a Население
-                        li: a Природные ресурсы
-                        li: a Справка о регионе
-                        li: a Транспорт и логистика
-                        li: a Туристический потенциал
-                                                
-                    .title-block#title-block3
-                        a.ico 
-                            .middle <i></i>
-                        h4 Регион для жизни
-                    ul#sub-3
-                        li.active: a Административно-территориальное устройство
-                        li: a Безопасность
-                        li: a Климат
-                        li: a Население
-                        li: a Природные ресурсы
-                        li: a Справка о регионе
-                        li: a Транспорт и логистика
-                        li: a Туристический потенциал
-                                                                        
-                    .title-block#title-block4
-                        a.ico 
-                            .middle <i></i>
-                        h4 Социально-экономические показатели
-                    ul#sub-4
-                        li.active: a Административно-территориальное устройство
-                        li: a Безопасность
-                        li: a Климат
-                        li: a Население
-                        li: a Природные ресурсы
-                        li: a Справка о регионе
-                        li: a Транспорт и логистика
-                        li: a Туристический потенциал
+                include include/ad-sub-menu.jade
                 .right--block
                     .title--block
                         .middle
