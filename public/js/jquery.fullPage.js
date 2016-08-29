@@ -156,7 +156,7 @@
             paddingBottom: 0,
             fixedElements: null,
             responsive: 0, //backwards compabitility with responsiveWiddth
-            responsiveWidth: 0,
+            responsiveWidth: 1000,
             responsiveHeight: 0,
 
             //Custom selectors
@@ -168,7 +168,7 @@
             afterLoad: null,
             onLeave: null,
             afterRender: null,
-            afterResize: null,
+            afterResize: true,
             afterReBuild: null,
             afterSlideLoad: null,
             onSlideLeave: null

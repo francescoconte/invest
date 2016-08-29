@@ -257,7 +257,7 @@ img {
   position: relative;
   width: 100%;
   height: auto;
-  margin: 10px 0px;
+  margin: 0px 0px;
 }
 abbr[title] {
   border-bottom: 1px dotted;
@@ -1746,14 +1746,22 @@ header .lang-b #sb {
     height: calc(100% - 80px);
     top: 100px;
   }
+  .konk-s .konk-table .one {
+    min-height: 135px;
+  }
   .konk-s .konk-table .one .title {
-    font-size: 65px;
+    font-size: 46px;
+  }
+  .konk-s .konk-table .three {
+    padding-right: 00px;
+    padding-left: 25px;
   }
   .konk-s .konk-table .one {
     width: 50%;
     float: left;
     padding-right: 25px;
     margin-bottom: 25px;
+    padding-left: 25px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 999px) {
