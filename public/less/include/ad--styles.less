@@ -43,9 +43,17 @@ i {margin: 0 auto; width: 14px; height: 10px; display: block; margin: 0 auto; po
 display: table;
 h2 {color: #fff; font-size: 26px; text-align: left; padding: 0 40px; width: 100%; float:left;}}
 article {float: left; width: 100%; padding: 40px;
-h2 {margin-bottom: 26px; float: left; width: 100%; float:left;}    
-p {color: @coltxt; font-size: 16px; font-weight: 600; line-height: 2; margin: 21px 0;}   
-    img {margin: 18px 0; display: block; float: left; width: 100%;}
+h2 {margin-bottom: 26px; float: left; width: 100%; float:left; font-size: 28px;}    
+p {color: @coltxt; font-size: 16px; font-weight: 600; line-height: 2; margin: 21px 0; float: left; width: 100%;} 
+.min-top{margin-top: -10px;}
+img {margin: 18px 0; display: block; float: left; width: 100%;}
+    
+    
+//gerb content-block
+.gerb-block {float: left; width: 100%; margin-bottom: 75px;}  
+.gerb {float: left; margin-right: 90px; display: inline-block; width:120px;
+img {width: auto; display: block; float: left;}
+.title {display: block; text-align: center; font-size: 15px; float: left; width: 100%;}}    
     
 // image content block
     
@@ -53,11 +61,14 @@ p {color: @coltxt; font-size: 16px; font-weight: 600; line-height: 2; margin: 21
 .image-block {float: left; height: 265px; width: 50%; .bgCC; position: relative; border-radius: 15px;     border: solid 5px #fff;
 .image-txt-block { position: absolute; display: block; bottom: 50px; left:30px;
 .title {display: block; float: left; width: 100%; font-size: 34px; font-weight: 700; color:#fff;}    
-.title-desk {display: block; float: left; width: 100%; font-size: 20px; margin-top: 18px; font-weight: 700; color:#fff; i {font-weight: 400; font-style: normal;}}    
+.title-desk {display: block; float: left; width: 100%; font-size: 20px; margin-top: 18px; font-weight: 700; color:#fff; 
+line-height: 1.6;  
+i {font-weight: 400; font-style: normal;}}    
 }    
-    }   .big-block {width: 100%;}
-    
-}    
+}.big-block {width: 100%;}
+.image-block-2 {.image-txt-block {.title-desk{font-size: 16px;}}}    
+} 
+
     
     
     

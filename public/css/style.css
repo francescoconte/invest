@@ -2758,6 +2758,7 @@ footer .boot-b .nav a:hover {
   margin-bottom: 26px;
   width: 100%;
   float: left;
+  font-size: 28px;
 }
 .administraiton--home--section .right--block article p {
   color: #3b3b3b;
@@ -2765,10 +2766,38 @@ footer .boot-b .nav a:hover {
   font-weight: 600;
   line-height: 2;
   margin: 21px 0;
+  float: left;
+  width: 100%;
+}
+.administraiton--home--section .right--block article .min-top {
+  margin-top: -10px;
 }
 .administraiton--home--section .right--block article img {
   margin: 18px 0;
   display: block;
+  float: left;
+  width: 100%;
+}
+.administraiton--home--section .right--block article .gerb-block {
+  float: left;
+  width: 100%;
+  margin-bottom: 75px;
+}
+.administraiton--home--section .right--block article .gerb {
+  float: left;
+  margin-right: 90px;
+  display: inline-block;
+  width: 120px;
+}
+.administraiton--home--section .right--block article .gerb img {
+  width: auto;
+  display: block;
+  float: left;
+}
+.administraiton--home--section .right--block article .gerb .title {
+  display: block;
+  text-align: center;
+  font-size: 15px;
   float: left;
   width: 100%;
 }
@@ -2812,6 +2841,7 @@ footer .boot-b .nav a:hover {
   margin-top: 18px;
   font-weight: 700;
   color: #fff;
+  line-height: 1.6;
 }
 .administraiton--home--section .right--block article .display-image-block .image-block .image-txt-block .title-desk i {
   font-weight: 400;
@@ -2819,6 +2849,9 @@ footer .boot-b .nav a:hover {
 }
 .administraiton--home--section .right--block article .display-image-block .big-block {
   width: 100%;
+}
+.administraiton--home--section .right--block article .display-image-block .image-block-2 .image-txt-block .title-desk {
+  font-size: 16px;
 }
 .administraiton--home--section .right--block .table-ons {
   float: left;
