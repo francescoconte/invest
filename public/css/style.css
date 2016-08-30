@@ -2738,7 +2738,6 @@ footer .boot-b .nav a:hover {
   background-position: CENTER CENTER !important;
   background-repeat: no-repeat !important;
   background-size: COVER !important;
-  background: url(../img/bg-title-block.jpg);
   height: 142px;
   display: table;
 }
@@ -2747,17 +2746,79 @@ footer .boot-b .nav a:hover {
   font-size: 26px;
   text-align: left;
   padding: 0 40px;
+  width: 100%;
+  float: left;
 }
 .administraiton--home--section .right--block article {
   float: left;
   width: 100%;
   padding: 40px;
 }
+.administraiton--home--section .right--block article h2 {
+  margin-bottom: 26px;
+  width: 100%;
+  float: left;
+}
 .administraiton--home--section .right--block article p {
   color: #3b3b3b;
   font-size: 16px;
   font-weight: 600;
-  line-height: 1.7;
+  line-height: 2;
+  margin: 21px 0;
+}
+.administraiton--home--section .right--block article img {
+  margin: 18px 0;
+  display: block;
+  float: left;
+  width: 100%;
+}
+.administraiton--home--section .right--block article .display-image-block {
+  float: left;
+  width: 100%;
+  margin: 21px 0 80px;
+  overflow: hidden;
+  margin-left: -5px;
+}
+.administraiton--home--section .right--block article .display-image-block .image-block {
+  float: left;
+  height: 265px;
+  width: 50%;
+  background-position: CENTER CENTER !important;
+  background-repeat: no-repeat !important;
+  background-size: COVER !important;
+  position: relative;
+  border-radius: 15px;
+  border: solid 5px #fff;
+}
+.administraiton--home--section .right--block article .display-image-block .image-block .image-txt-block {
+  position: absolute;
+  display: block;
+  bottom: 50px;
+  left: 30px;
+}
+.administraiton--home--section .right--block article .display-image-block .image-block .image-txt-block .title {
+  display: block;
+  float: left;
+  width: 100%;
+  font-size: 34px;
+  font-weight: 700;
+  color: #fff;
+}
+.administraiton--home--section .right--block article .display-image-block .image-block .image-txt-block .title-desk {
+  display: block;
+  float: left;
+  width: 100%;
+  font-size: 20px;
+  margin-top: 18px;
+  font-weight: 700;
+  color: #fff;
+}
+.administraiton--home--section .right--block article .display-image-block .image-block .image-txt-block .title-desk i {
+  font-weight: 400;
+  font-style: normal;
+}
+.administraiton--home--section .right--block article .display-image-block .big-block {
+  width: 100%;
 }
 .administraiton--home--section .right--block .table-ons {
   float: left;
@@ -2789,19 +2850,59 @@ footer .boot-b .nav a:hover {
   font-size: 30px;
   position: relative;
 }
+.administraiton--home--section .right--block .table-ons .one .one-block .title .ico {
+  position: relative;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-position: CENTER CENTER !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  background: url(../../img/ico-table1.png);
+  top: 5px;
+  margin-right: 7px;
+}
+.administraiton--home--section .right--block .table-ons .one .one-block .title .min {
+  font-size: 20px;
+}
+.administraiton--home--section .right--block .table-ons .one .one-block .title .big {
+  font-size: 36px;
+}
 .administraiton--home--section .right--block .table-ons .one .one-block .title .title-desc {
   position: absolute;
   display: block;
   top: 40px;
   padding: 10px;
-  width: 156px;
+  width: 210px;
   left: 50%;
-  margin-left: -78px;
+  margin-left: -99px;
   text-align: center;
   font-size: 15px;
   color: #3b3b3b;
   font-weight: 600;
+  line-height: 1.5;
+}
+.administraiton--home--section .right--block .table-ons .one .one-block::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 80%;
+  bottom: -20px;
+  height: 50%;
+  left: 11%;
   background: #fff;
+}
+.administraiton--home--section .right--block .non-line .one {
+  width: 40%;
+  margin-bottom: 60px;
+}
+.administraiton--home--section .right--block .non-line .one .one-block .title .title-desc {
+  width: 210px;
+  margin-left: -107px;
+  padding: 10px 0;
+}
+.administraiton--home--section .right--block .non-line::after {
+  border-bottom: solid 0px !important;
 }
 .administraiton--home--section .right--block .table-ons::after {
   content: '';
@@ -3046,289 +3147,6 @@ footer .boot-b .nav a:hover {
     padding: 7px 0 !important;
   }
 }
-.administraiton--home--image {
-  height: 380px;
-  background-position: CENTER CENTER !important;
-  background-repeat: no-repeat !important;
-  background-size: COVER !important;
-  background: url(../img/imagead1.jpg);
-}
-.administraiton--home--image .content {
-  height: 100%;
-  display: table;
-}
-.administraiton--home--image h1 {
-  color: #fff;
-  font-size: 44px;
-  text-align: center;
-}
-.administraiton--home--section {
-  margin-top: 82px;
-  margin-bottom: 80px;
-}
-.administraiton--home--section .content {
-  height: 100%;
-  background: #fafafa;
-  border-radius: 6px;
-}
-.administraiton--home--section .left-block {
-  float: left;
-  width: 450px;
-  background: #fafafa;
-  padding: 45px 30px;
-}
-.administraiton--home--section .left-block .title-block {
-  display: block;
-  float: left;
-  width: 100%;
-  cursor: pointer;
-}
-.administraiton--home--section .left-block .title-block h4 {
-  font-size: 20px;
-  color: #3b3b3b;
-  font-weight: 700;
-  display: inline-block;
-  margin-left: 24px;
-  float: left;
-  width: 315px;
-}
-.administraiton--home--section .left-block .title-block a.ico {
-  display: inline-block;
-  width: 48px;
-  height: 34px;
-  display: inline-table;
-  background-position: CENTER CENTER !important;
-  background-repeat: no-repeat !important;
-  background-size: contain !important;
-  background-color: #fff;
-  border-radius: 15px;
-  float: left;
-}
-.administraiton--home--section .left-block .title-block a.ico i {
-  width: 14px;
-  height: 10px;
-  display: block;
-  margin: 0 auto;
-  position: relative;
-  background-position: CENTER CENTER !important;
-  background-repeat: no-repeat !important;
-  background-size: contain !important;
-  background: url(../img/sty-b.png);
-}
-.administraiton--home--section .left-block .active .ico {
-  background: url(../img/bg-title-ico.png);
-}
-.administraiton--home--section .left-block .active .ico i {
-  background-image: url(../img/stiks.svg) !important;
-}
-.administraiton--home--section .left-block ul {
-  float: left;
-  width: 100%;
-  padding-left: 72px;
-  border-bottom: solid 1px #eeeeee;
-  padding-bottom: 14px;
-  margin-bottom: 18px;
-}
-.administraiton--home--section .left-block ul li {
-  padding: 14px 0;
-  float: left;
-  width: 100%;
-  display: none;
-}
-.administraiton--home--section .left-block ul li a {
-  color: #3b3b3b;
-  font-weight: 600;
-}
-.administraiton--home--section .left-block ul li a:hover {
-  color: #38c117;
-}
-.administraiton--home--section .left-block ul .active a {
-  font-weight: 700 !important;
-}
-.administraiton--home--section .left-block ul#sub-1 li {
-  display: block;
-}
-.administraiton--home--section .right--block {
-  float: right;
-  width: 730px;
-  background: #fff;
-  box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.07);
-}
-.administraiton--home--section .right--block .title--block {
-  float: left;
-  width: 100%;
-  background-position: CENTER CENTER !important;
-  background-repeat: no-repeat !important;
-  background-size: COVER !important;
-  background: url(../img/bg-title-block.jpg);
-  height: 142px;
-  display: table;
-}
-.administraiton--home--section .right--block .title--block h2 {
-  color: #fff;
-  font-size: 26px;
-  text-align: left;
-  padding: 0 40px;
-}
-.administraiton--home--section .right--block article {
-  float: left;
-  width: 100%;
-  padding: 40px;
-}
-.administraiton--home--section .right--block article p {
-  color: #3b3b3b;
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 1.7;
-}
-.administraiton--home--section .right--block .table-ons {
-  float: left;
-  width: 100%;
-  padding: 0px 25px;
-}
-.administraiton--home--section .right--block .table-ons .one {
-  float: left;
-  display: inline-block;
-  width: 33.333333%;
-  position: relative;
-  height: 85px;
-  border-left: solid 10px #fff;
-  border-right: solid 10px #fff;
-  margin-bottom: 70px;
-}
-.administraiton--home--section .right--block .table-ons .one .one-block {
-  position: absolute;
-  display: table;
-  width: 100%;
-  height: 100%;
-  border: solid 2px #38c117;
-  border-radius: 15px;
-}
-.administraiton--home--section .right--block .table-ons .one .one-block .title {
-  display: block;
-  text-align: center;
-  color: #38c117;
-  font-size: 30px;
-  position: relative;
-}
-.administraiton--home--section .right--block .table-ons .one .one-block .title .title-desc {
-  position: absolute;
-  display: block;
-  top: 40px;
-  padding: 10px;
-  width: 156px;
-  left: 50%;
-  margin-left: -78px;
-  text-align: center;
-  font-size: 15px;
-  color: #3b3b3b;
-  font-weight: 600;
-  background: #fff;
-}
-.administraiton--home--section .right--block .table-ons::after {
-  content: '';
-  float: left;
-  width: 100%;
-  border-bottom: solid 1px #eeeeee;
-  margin-top: 45px;
-}
-.administraiton--home--section .right--block h4 {
-  float: left;
-  display: block;
-  width: 100%;
-  padding: 55px 40px 35px;
-}
-.administraiton--home--section .right--block .content--slider--block {
-  border-left: solid 40px #fff;
-  border-right: solid 40px #fff;
-  height: 330px;
-  width: 100%;
-  float: left;
-  position: relative;
-  overflow: hidden;
-}
-.administraiton--home--section .right--block .content--slider--block .slider--wrapper {
-  position: absolute;
-  display: block;
-  height: 100%;
-  width: 100%;
-  left: 0px;
-  right: 0px;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s;
-}
-.administraiton--home--section .right--block .content--slider--block .slider--wrapper .slide {
-  height: 100%;
-  float: left;
-  background-position: CENTER CENTER !important;
-  background-repeat: no-repeat !important;
-  background-size: COVER !important;
-  position: relative;
-}
-.administraiton--home--section .right--block .content--slider--block .slider--wrapper .slide .slide-title-block {
-  position: absolute;
-  display: block;
-  bottom: 60px;
-  left: 45px;
-}
-.administraiton--home--section .right--block .content--slider--block .slider--wrapper .slide .slide-title-block .title {
-  font-size: 55px;
-  color: #fff;
-  font-weight: 700;
-  display: block;
-  margin-left: -5px;
-}
-.administraiton--home--section .right--block .content--slider--block .slider--wrapper .slide .slide-title-block .title-desc {
-  margin-top: 30px;
-  color: #fff;
-  font-weight: 500;
-  font-size: 24px;
-}
-.administraiton--home--section .right--block .content--slider--block .slider--wrapper .slide .slide-title-block .title-desc b {
-  font-weight: 700;
-  color: #54d036;
-}
-.administraiton--home--section .right--block .content--slider--block .slider--nav {
-  position: absolute;
-  display: block;
-  bottom: 60px;
-  right: 27px;
-}
-.administraiton--home--section .right--block .content--slider--block .slider--nav li {
-  float: left;
-  display: inline-table;
-  width: 40px;
-  height: 40px;
-  background-position: CENTER CENTER !important;
-  background-repeat: no-repeat !important;
-  background-size: contain !important;
-  background: url(../img/ellipse3.png);
-  margin: 0 6px;
-  cursor: pointer;
-}
-.administraiton--home--section .right--block .content--slider--block .slider--nav li i {
-  display: block;
-  background-position: CENTER CENTER !important;
-  background-repeat: no-repeat !important;
-  background-size: contain !important;
-  background: url(../img/stick.png);
-  width: 8px;
-  height: 14px;
-  margin: 0 auto;
-}
-.administraiton--home--section .right--block .content--slider--block .slider--nav #sl-right i {
-  -moz-transform: rotate(180deg);
-  /* Для Firefox */
-  -ms-transform: rotate(180deg);
-  /* Для IE */
-  -webkit-transform: rotate(180deg);
-  /* Для Safari, Chrome, iOS */
-  -o-transform: rotate(180deg);
-  /* Для Opera */
-  transform: rotate(180deg);
-}
 @media screen and (min-width: 1200px) and (max-width: 1400px) {
   section {
     min-height: 800px !important;
@@ -3406,5 +3224,12 @@ footer .boot-b .nav a:hover {
     float: left;
     width: 100%;
     margin-top: 18px;
+  }
+  .administraiton--home--section .right--block article .display-image-block .image-block {
+    float: left;
+    height: 265px;
+    border: solid 0px #fff;
+    width: 100%;
+    margin: 10px 0;
   }
 }

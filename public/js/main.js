@@ -1,9 +1,4 @@
- $(document).ready(myfunction);
-$(window).on('resize',myfunction);
-
-function myfunction() {
-    // do whatever
-    
+ $(document).ready(function() {
   var lang = 0; 
      widthPage =  $(window).width(); 
      sliderWidth = $('#slider-wrapper').width();
@@ -228,7 +223,7 @@ lang = 0;
        
     
     
-}
+});  
 
 
 
