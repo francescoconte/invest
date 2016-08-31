@@ -65,14 +65,15 @@ a:hover {color: @colfirm;}
 }}  
 
     
-.linked-b {position: relative; float: left; display: inline-table; height: 100%;  margin-top: -4px; 
+.linked-b {position: relative; float: right; display: inline-table; height: 100%;  margin-top: -4px; margin-right: 25px;
 .sl-v {position: relative; margin-left:120px; display: inline-block; color: #2a2a2a; font-weight: 600; font-size: 13px; 
 border-bottom: 1px dashed;  
     }.sl-v:hover {color: @colfirm;}
 .sl-v::before {content: ''; position: absolute; display: block; left:-28px; top:6px; width: 16px; height: 12px;
 background: url(../img/sl-v.png); .bgCCC;}
-.sear{ position: relative; margin-left:45px; display: inline-block; top:6px; width: 18px; height: 18px;
+.sear{ position: relative; margin:0 10px; display: inline-block; top:6px; width: 18px; height: 18px;
 background: url(../img/sear.png); .bgCCC;}
+    .slab {background: url(../../img/oko.png);}
 }
 
 .lang-b{position: relative; float: right; display: inline-table;  height: 100%; 
@@ -143,7 +144,7 @@ header .linked-b .sl-v {
 }
     
 header .linked-b .sear {
-    margin-left: 30px;
+    margin-left: 10px;
 }
     
     
@@ -244,7 +245,7 @@ header .linked-b .sl-v {
 }
     
 header .linked-b .sear {
-    margin-left: 30px;
+    margin-left: 10px;
 }
     
     
@@ -381,6 +382,28 @@ header .lang-b #sb {
 header .nav-b nav {
     display: none;
     margin-left: 45px;
+}
+    
+header .nav-b {
+    position: relative;
+    float: left;
+    display: inline-table;
+    height: 100%;
+    display: none;
+}
+    
+    
+.nav-b {
+    position: relative;
+    float: right;
+    display: inline-table;
+    height: 100%;
+    width: 89%;
+}
+    
+.menu-sub-block .nav-b nav a {
+    font-size: 8px;
+    margin-right: 0px;
 }
 
 }
@@ -583,6 +606,11 @@ header .lang-b {
     top: 33px;
     right: 10px;
 }
+    
+    
+header .linked-b {
+    float: left;
+}    
 
 }
 

@@ -751,10 +751,11 @@ header .nav-b nav a:hover {
 }
 header .linked-b {
   position: relative;
-  float: left;
+  float: right;
   display: inline-table;
   height: 100%;
   margin-top: -4px;
+  margin-right: 25px;
 }
 header .linked-b .sl-v {
   position: relative;
@@ -783,7 +784,7 @@ header .linked-b .sl-v::before {
 }
 header .linked-b .sear {
   position: relative;
-  margin-left: 45px;
+  margin: 0 10px;
   display: inline-block;
   top: 6px;
   width: 18px;
@@ -792,6 +793,9 @@ header .linked-b .sear {
   background-position: CENTER CENTER !important;
   background-repeat: no-repeat !important;
   background-size: contain !important;
+}
+header .linked-b .slab {
+  background: url(../../img/oko.png);
 }
 header .lang-b {
   position: relative;
@@ -876,7 +880,7 @@ header .lang-b #sb {
     font-size: 10px;
   }
   header .linked-b .sear {
-    margin-left: 30px;
+    margin-left: 10px;
   }
   header .linked-b .sl-v::before {
     left: -28px;
@@ -957,7 +961,7 @@ header .lang-b #sb {
     font-size: 10px;
   }
   header .linked-b .sear {
-    margin-left: 30px;
+    margin-left: 10px;
   }
   header .linked-b .sl-v::before {
     left: -28px;
@@ -1065,6 +1069,24 @@ header .lang-b #sb {
   header .nav-b nav {
     display: none;
     margin-left: 45px;
+  }
+  header .nav-b {
+    position: relative;
+    float: left;
+    display: inline-table;
+    height: 100%;
+    display: none;
+  }
+  .nav-b {
+    position: relative;
+    float: right;
+    display: inline-table;
+    height: 100%;
+    width: 89%;
+  }
+  .menu-sub-block .nav-b nav a {
+    font-size: 8px;
+    margin-right: 0px;
   }
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
@@ -1233,6 +1255,9 @@ header .lang-b #sb {
     height: 100%;
     top: 33px;
     right: 10px;
+  }
+  header .linked-b {
+    float: left;
   }
 }
 .home {
@@ -1484,6 +1509,7 @@ header .lang-b #sb {
     height: 690px;
     position: relative;
     min-height: 650px;
+    float: left;
   }
   .home .ab-tab {
     height: calc(100% - 90px);
@@ -1560,12 +1586,13 @@ header .lang-b #sb {
   position: relative;
   height: 65px;
   margin-top: 45px;
-  float: left;
+  float: right;
+  margin-right: 80px;
 }
 .hello .sign::before {
   content: '';
   position: absolute;
-  left: 110%;
+  left: 105%;
   top: -12px;
   width: 65px;
   height: 65px;
@@ -1588,6 +1615,11 @@ header .lang-b #sb {
     padding-left: 45px;
     width: 560px;
   }
+  .hello article {
+    float: right;
+    padding-left: 45px;
+    width: 480px;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 999px) {
   .hello {
@@ -1600,7 +1632,7 @@ header .lang-b #sb {
   }
   .hello article {
     float: right;
-    padding-left: 45px;
+    padding-left: 5px;
     width: 100%;
   }
   .hello p {
@@ -1621,6 +1653,7 @@ header .lang-b #sb {
     position: relative;
     min-height: auto;
     height: 650px;
+    float: left;
     background: #fff;
   }
   .hello .ab-tab {
@@ -1697,24 +1730,25 @@ header .lang-b #sb {
 }
 .konk-s h3 {
   color: #fff;
+  margin-top: 50px;
 }
 .konk-s .konk-table {
   float: left;
   width: 100%;
-  margin-top: 80px;
+  margin-top: 60px;
 }
 .konk-s .konk-table .one {
   width: 33.33333%;
   float: left;
   padding-right: 80px;
-  margin-bottom: 70px;
+  margin-bottom: 25px;
   min-height: 175px;
 }
 .konk-s .konk-table .one .title {
   float: left;
   width: 100%;
   color: #38c117;
-  font-size: 80px;
+  font-size: 60px;
 }
 .konk-s .konk-table .one .title span {
   font-size: 26px;
@@ -1740,6 +1774,41 @@ header .lang-b #sb {
   .konk-s .konk-table .one .title {
     font-size: 70px;
   }
+  .konk-s .konk-table .one {
+    min-height: 155px;
+  }
+  .konk-s .konk-table .one .title {
+    font-size: 46px;
+  }
+  .konk-s .konk-table .three {
+    padding-right: 00px;
+    padding-left: 25px;
+  }
+  .konk-s .konk-table .one {
+    width: 33%;
+    float: left;
+    padding-right: 25px;
+    margin-bottom: 25px;
+    padding-left: 25px;
+  }
+  .konk-s .konk-table .one {
+    padding-right: 25px;
+    margin-bottom: 0px;
+    padding-left: 25px;
+  }
+  .konk-s .konk-table {
+    float: left;
+    width: 100%;
+    margin-top: 40px;
+  }
+  .konk-s .konk-table .one .title {
+    font-size: 40px;
+  }
+  .konk-s h3 {
+    color: #fff;
+    margin-top: 00px;
+    margin-left: 25px;
+  }
 }
 @media screen and (min-width: 1000px) and (max-width: 1199px) {
   .konk-s .ab-tab {
@@ -1757,17 +1826,35 @@ header .lang-b #sb {
     padding-left: 25px;
   }
   .konk-s .konk-table .one {
-    width: 50%;
+    width: 33%;
     float: left;
     padding-right: 25px;
     margin-bottom: 25px;
     padding-left: 25px;
   }
+  .konk-s .konk-table .one {
+    padding-right: 25px;
+    margin-bottom: 0px;
+    padding-left: 25px;
+  }
+  .konk-s .konk-table {
+    float: left;
+    width: 100%;
+    margin-top: 40px;
+  }
+  .konk-s .konk-table .one .title {
+    font-size: 40px;
+  }
+  .konk-s h3 {
+    color: #fff;
+    margin-top: 00px;
+    margin-left: 25px;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 999px) {
   .konk-s {
     position: relative;
-    height: 760px;
+    height: 1150px;
   }
   .konk-s .ab-tab {
     height: 100%;
@@ -1790,16 +1877,12 @@ header .lang-b #sb {
     padding-right: 25px;
     margin-bottom: 25px;
   }
-  .konk-s .konk-table .one {
-    padding-right: 25px;
-    margin-bottom: 25px;
-    padding-left: 25px;
-  }
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .konk-s {
     position: relative;
-    height: 1320px;
+    height: 1780px;
+    float: left;
   }
   .konk-s .ab-tab {
     height: 100%;
@@ -2147,6 +2230,7 @@ header .lang-b #sb {
     background: #fefefe;
     display: block;
     height: 1750px;
+    float: left;
   }
   .news .ab-tab {
     height: 100%;
@@ -2304,6 +2388,56 @@ header .lang-b #sb {
   height: calc(100% - 120px);
   top: 130px;
 }
+.invest .slider-wrapp {
+  position: absolute;
+  display: table;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+}
+.invest .slider-wrapp .stick {
+  position: absolute;
+  top: 50%;
+  margin-top: -16px;
+  display: block;
+  width: 20px;
+  height: 33px;
+  background: url(../img/stick2.png);
+}
+.invest .slider-wrapp .stick-left {
+  position: absolute;
+  left: 230px;
+  display: block;
+  width: 20px;
+  height: 33px;
+  background: url(../img/stick2.png);
+  -moz-transform: rotate(180deg);
+  /* Для Firefox */
+  -ms-transform: rotate(180deg);
+  /* Для IE */
+  -webkit-transform: rotate(180deg);
+  /* Для Safari, Chrome, iOS */
+  -o-transform: rotate(180deg);
+  /* Для Opera */
+  transform: rotate(180deg);
+}
+.invest .slider-wrapp .stick-right {
+  position: absolute;
+  right: 230px;
+  display: block;
+  width: 20px;
+  height: 33px;
+  background: url(../img/stick2.png);
+}
+.invest #slide-inv1 {
+  opacity: 1;
+}
 .invest h3,
 .invest h4 {
   color: #fff;
@@ -2397,6 +2531,18 @@ header .lang-b #sb {
   .invest .partners {
     margin-top: 35px;
   }
+  .invest .slider-wrapp .stick-right {
+    position: absolute;
+    right: 36px !important;
+    top: 90px !important;
+  }
+  .invest .slider-wrapp .stick-left {
+    position: absolute;
+    display: block;
+    left: auto !important;
+    right: 106px !important;
+    top: 90px !important;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 999px) {
   .invest {
@@ -2415,13 +2561,29 @@ header .lang-b #sb {
   .invest .partners .one img {
     width: 75%;
   }
+  .invest .slider-wrapp .stick-right {
+    position: absolute;
+    right: 36px !important;
+    top: 113px !important;
+  }
+  .invest .slider-wrapp .stick-left {
+    position: absolute;
+    display: block;
+    left: auto !important;
+    right: 106px !important;
+    top: 113px !important;
+  }
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .invest {
-    height: 1040px;
+    height: auto;
+    float: left;
   }
   .invest .ab-tab {
     height: 100%;
+    float: left;
+    position: relative;
+    display: block;
     top: 0px;
   }
   .invest .invest-block .one {
@@ -2435,12 +2597,23 @@ header .lang-b #sb {
   .invest .partners .one img {
     width: 75%;
   }
+  .invest .slider-wrapp {
+    float: left;
+    position: relative;
+    display: block;
+    opacity: 1;
+    margin: 45px 0;
+  }
+  .stick {
+    display: none !important;
+  }
 }
 footer {
   position: relative;
   background: #fefefe;
   display: block;
   height: 300px!important;
+  font-style: normal !important;
 }
 footer .h-block {
   float: left;
@@ -2582,6 +2755,7 @@ footer .boot-b .nav a:hover {
 }
 @media screen and (min-width: 320px) and (max-width: 676px) {
   footer {
+    float: left;
     height: 355px !important;
   }
   footer .h-block .linked-b .sl-v {
@@ -2723,6 +2897,9 @@ footer .boot-b .nav a:hover {
 .administraiton--home--section .left-block ul .active a {
   font-weight: 700 !important;
 }
+.administraiton--home--section .left-block ul:last-child {
+  border: solid 0px;
+}
 .administraiton--home--section .left-block ul#sub-1 li {
   display: block;
 }
@@ -2847,11 +3024,17 @@ footer .boot-b .nav a:hover {
   font-weight: 400;
   font-style: normal;
 }
+.administraiton--home--section .right--block article .display-image-block .image-block .min-bot {
+  bottom: 20px;
+}
 .administraiton--home--section .right--block article .display-image-block .big-block {
   width: 100%;
 }
 .administraiton--home--section .right--block article .display-image-block .image-block-2 .image-txt-block .title-desk {
   font-size: 16px;
+}
+.administraiton--home--section .right--block .art-non-top {
+  padding-top: 0px;
 }
 .administraiton--home--section .right--block .table-ons {
   float: left;
@@ -2925,6 +3108,9 @@ footer .boot-b .nav a:hover {
   left: 11%;
   background: #fff;
 }
+.administraiton--home--section .right--block .table-ons .one .non-desc::before {
+  display: none !important;
+}
 .administraiton--home--section .right--block .table-ons .min-bot {
   margin-bottom: 25px !important;
 }
@@ -2933,7 +3119,7 @@ footer .boot-b .nav a:hover {
   margin-bottom: 60px;
 }
 .administraiton--home--section .right--block .non-line .one .one-block .title .title-desc {
-  width: 214px;
+  width: 233px;
   margin-left: -115px;
   padding: 10px 0;
 }

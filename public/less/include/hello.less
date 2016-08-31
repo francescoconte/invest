@@ -5,8 +5,8 @@
 article {float: right; padding-left: 65px; width: 590px;}
 h2 {color: #fff;  margin:20px 5px;} 
 p {color: #fff; margin:20px 5px; line-height: 1.5;}
-.sign {position: relative; height: 65px; margin-top: 45px; float: left;}
-.sign::before{content:''; position: absolute; left: 110%; top:-12px; width: 65px; height: 65px; .bgCCC;
+.sign {position: relative; height: 65px; margin-top: 45px; float:right;     margin-right: 80px;}
+.sign::before{content:''; position: absolute; left: 105%; top:-12px; width: 65px; height: 65px; .bgCCC;
 background: url(../img/sign.png);
 }    
 }
@@ -25,6 +25,11 @@ background: url(../img/sign.png);
     width: 560px;
 }   
     
+.hello article {
+    float: right;
+    padding-left: 45px;
+    width: 480px;
+}
     
 }
 
@@ -36,9 +41,9 @@ background:#fff;  .ab-tab {height: 100%; top:80px;} }
   
 .hello article {
     float: right;
-    padding-left: 45px;
+    padding-left: 5px;
     width: 100%;
-}   
+}
     
 .hello p {
     color: @coltxt;
@@ -59,7 +64,7 @@ background:#fff;  .ab-tab {height: 100%; top:80px;} }
 }
 
 @media screen and (min-width:320px) and (max-width:767px)   {
-.hello{ position: relative; min-height: auto; height: 650px;
+.hello{ position: relative; min-height: auto; height: 650px; float: left;
     
     
 background:#fff;  .ab-tab {height: 100%; top:0px;} } 

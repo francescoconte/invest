@@ -10,8 +10,106 @@
      titleClick2 = 0; 
      titleClick3 = 0; 
      titleClick4 = 0; 
-
      
+     //slider invest index
+     clickInvest = 1;
+     
+     
+     
+     
+     
+     
+     
+     $('.stick-left').click(function() {
+     
+     if (clickInvest == 1) {
+         
+     $('#slide-inv3').css('opacity' , '1');    
+     $('#slide-inv2').css('opacity' , '0');    
+     $('#slide-inv1').css('opacity' , '0');    
+     clickInvest = 3;    
+         
+     } else {
+         
+    if (clickInvest == 2) {
+         
+     $('#slide-inv1').css('opacity' , '1');    
+     $('#slide-inv2').css('opacity' , '0');    
+     $('#slide-inv3').css('opacity' , '0');    
+     clickInvest = 1;    
+         
+     } else {
+         
+    if (clickInvest == 3) {
+         
+     $('#slide-inv2').css('opacity' , '1');    
+     $('#slide-inv1').css('opacity' , '0');    
+     $('#slide-inv3').css('opacity' , '0');    
+     clickInvest = 2;    
+         
+     }   
+         
+     }    
+   
+     }
+         
+         
+     
+         
+     }); 
+          
+     $('.stick-right').click(function() {
+     
+     if (clickInvest == 1) {
+         
+     $('#slide-inv2').css('opacity' , '1');    
+     $('#slide-inv3').css('opacity' , '0');    
+     $('#slide-inv1').css('opacity' , '0');    
+     clickInvest = 2;    
+         
+     } else {
+         
+     if (clickInvest == 2) {
+         
+     $('#slide-inv3').css('opacity' , '1');    
+     $('#slide-inv2').css('opacity' , '0');    
+     $('#slide-inv1').css('opacity' , '0');    
+     clickInvest = 3;    
+         
+     } else {
+         
+      if (clickInvest == 3) {
+         
+     $('#slide-inv1').css('opacity' , '1');    
+     $('#slide-inv2').css('opacity' , '0');    
+     $('#slide-inv3').css('opacity' , '0');    
+     clickInvest = 1;    
+         
+     }   
+         
+     } 
+         
+     }
+     
+         
+     }); 
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+         
       if (widthPage > 999) {
 
  $('#fullpage').fullpage({

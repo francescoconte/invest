@@ -32,7 +32,7 @@ i {margin: 0 auto; width: 14px; height: 10px; display: block; margin: 0 auto; po
         .active {a {font-weight: 700 !important;}}
 
 }
-
+    ul:last-child {border: solid 0px;} 
     ul#sub-1 {li {display: block;} }    
 
 }
@@ -64,15 +64,15 @@ img {width: auto; display: block; float: left;}
 .title-desk {display: block; float: left; width: 100%; font-size: 20px; margin-top: 18px; font-weight: 700; color:#fff; 
 line-height: 1.6;  
 i {font-weight: 400; font-style: normal;}}    
-}    
+    } .min-bot {bottom: 20px;}    
 }.big-block {width: 100%;}
 .image-block-2 {.image-txt-block {.title-desk{font-size: 16px;}}}    
 } 
-
-    
     
     
 }
+    
+    .art-non-top {padding-top: 0px;}
     
 .table-ons {float: left; width: 100%; padding: 0px 25px; 
 .one {float: left; display: inline-block; width: 33.333333%; position: relative; height: 85px;
@@ -87,13 +87,16 @@ border-radius: 15px;
 margin-left: -99px; text-align: center; font-size: 15px; color: @coltxt; font-weight: 600; line-height: 1.5;}    
     }}
     
-.one-block::before {content: ''; position: absolute; display:block; width: 80%; bottom: -20px; height: 50%; left:11%; background: #fff;}    
+.one-block::before {content: ''; position: absolute; display:block; width: 80%; bottom: -20px; height: 50%; left:11%; background: #fff;}  
+.non-desc::before {display: none !important;}
 }
     
-.min-bot {margin-bottom: 25px !important;}   
+.min-bot {margin-bottom: 25px !important;} 
+    
+
 } 
     
-.non-line {.one {width: 40%; margin-bottom: 60px; .one-block { .title{.title-desc  {width: 214px; margin-left: -115px; padding: 10px 0;}} } }} 
+.non-line {.one {width: 40%; margin-bottom: 60px; .one-block { .title{.title-desc  {width: 233px; margin-left: -115px; padding: 10px 0;}} } }} 
 .non-line::after {border-bottom: solid 0px !important; margin: 0px !important;}
     
     
