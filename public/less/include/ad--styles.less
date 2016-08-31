@@ -44,7 +44,7 @@ display: table;
 h2 {color: #fff; font-size: 26px; text-align: left; padding: 0 40px; width: 100%; float:left;}}
 article {float: left; width: 100%; padding: 40px;
 h2 {margin-bottom: 26px; float: left; width: 100%; float:left; font-size: 28px;}    
-p {color: @coltxt; font-size: 16px; font-weight: 600; line-height: 2; margin: 21px 0; float: left; width: 100%;} 
+p {color: @coltxt; font-size: 16px; font-weight: 400; line-height: 2; margin: 21px 0; float: left; width: 100%;} 
 .min-top{margin-top: -10px;}
 img {margin: 18px 0; display: block; float: left; width: 100%;}
     
@@ -88,10 +88,13 @@ margin-left: -99px; text-align: center; font-size: 15px; color: @coltxt; font-we
     }}
     
 .one-block::before {content: ''; position: absolute; display:block; width: 80%; bottom: -20px; height: 50%; left:11%; background: #fff;}    
-}} 
+}
     
-.non-line {.one {width: 40%; margin-bottom: 60px; .one-block { .title{.title-desc  {width: 210px; margin-left: -107px; padding: 10px 0;}} } }} 
-.non-line::after {border-bottom: solid 0px !important;}
+.min-bot {margin-bottom: 25px !important;}   
+} 
+    
+.non-line {.one {width: 40%; margin-bottom: 60px; .one-block { .title{.title-desc  {width: 214px; margin-left: -115px; padding: 10px 0;}} } }} 
+.non-line::after {border-bottom: solid 0px !important; margin: 0px !important;}
     
     
 .table-ons::after {content: ''; float: left; width: 100%; border-bottom: solid 1px #eeeeee; margin-top: 45px; } h4 {float: left;display: block; width: 100%; padding: 55px 40px 35px;}
@@ -117,7 +120,7 @@ i {display: block; .bgCCC; background: url(../img/stick.png); width: 8px; height
 }  
 }
     
-    
+    .slider--block--h2 {height: 420px; margin-bottom: 80px;}    
     
 }    
     
@@ -192,5 +195,23 @@ position: relative !important; display: block !important; bottom: 0px !important
 .administraiton--home--section .right--block .content--slider--block .slider--nav {bottom: 27px !important;right: 27px !important;}
  
 .administraiton--home--section .left-block ul li {padding: 7px 0 !important;}
+    
+.administraiton--home--section .right--block article .gerb {
+    margin-right: 0px;
+}  
+    
+.administraiton--home--section .right--block article h2 {
+    font-size: 20px;
+}  
+    
+.administraiton--home--section .right--block .title--block {
+    float: left;
+    width: 100%;
+    background-position: CENTER LEFT !important;
+    background-repeat: no-repeat !important;
+    background-size: COVER !important;
+    height: 100px;
+    display: table;
+}
 
 }

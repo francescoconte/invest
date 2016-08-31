@@ -47,7 +47,7 @@ select {
   background-size: contain !important;
 }
 .bgCC {
-  background-position: CENTER CENTER !important;
+  background-position: CENTER CENTER;
   background-repeat: no-repeat !important;
   background-size: COVER !important;
 }
@@ -1236,7 +1236,7 @@ header .lang-b #sb {
   }
 }
 .home {
-  background-position: CENTER CENTER !important;
+  background-position: CENTER CENTER;
   background-repeat: no-repeat !important;
   background-size: COVER !important;
   min-height: 900px;
@@ -1532,7 +1532,7 @@ header .lang-b #sb {
   }
 }
 .hello {
-  background-position: CENTER CENTER !important;
+  background-position: CENTER CENTER;
   background-repeat: no-repeat !important;
   background-size: COVER !important;
   background: url(../img/hellobg.jpg);
@@ -1659,7 +1659,7 @@ header .lang-b #sb {
 }
 .konk-s {
   position: relative;
-  background-position: CENTER CENTER !important;
+  background-position: CENTER CENTER;
   background-repeat: no-repeat !important;
   background-size: COVER !important;
   background: url(../img/konk-bg.jpg);
@@ -1900,7 +1900,7 @@ header .lang-b #sb {
   height: 220px;
   float: left;
   width: 100%;
-  background-position: CENTER CENTER !important;
+  background-position: CENTER CENTER;
   background-repeat: no-repeat !important;
   background-size: COVER !important;
 }
@@ -2270,7 +2270,7 @@ header .lang-b #sb {
   position: relative;
   background: #fefefe;
   display: block;
-  background-position: CENTER CENTER !important;
+  background-position: CENTER CENTER;
   background-repeat: no-repeat !important;
   background-size: COVER !important;
   background: url(../img/prbg.jpg);
@@ -2282,7 +2282,7 @@ header .lang-b #sb {
   left: 0px;
   width: 100%;
   height: 100%;
-  background-position: CENTER CENTER !important;
+  background-position: CENTER CENTER;
   background-repeat: no-repeat !important;
   background-size: COVER !important;
 }
@@ -2320,7 +2320,7 @@ header .lang-b #sb {
   display: inline-table;
   width: 50%;
   height: 405px;
-  background-position: CENTER CENTER !important;
+  background-position: CENTER CENTER;
   background-repeat: no-repeat !important;
   background-size: COVER !important;
   border-left: solid 5px transparent;
@@ -2351,7 +2351,7 @@ header .lang-b #sb {
   display: block;
   width: 100%;
   height: 50%;
-  background-position: CENTER CENTER !important;
+  background-position: CENTER CENTER;
   background-repeat: no-repeat !important;
   background-size: COVER !important;
 }
@@ -2625,7 +2625,7 @@ footer .boot-b .nav a:hover {
 }
 .administraiton--home--image {
   height: 380px;
-  background-position: CENTER CENTER !important;
+  background-position: CENTER CENTER;
   background-repeat: no-repeat !important;
   background-size: COVER !important;
   background: url(../img/imagead1.jpg);
@@ -2735,7 +2735,7 @@ footer .boot-b .nav a:hover {
 .administraiton--home--section .right--block .title--block {
   float: left;
   width: 100%;
-  background-position: CENTER CENTER !important;
+  background-position: CENTER CENTER;
   background-repeat: no-repeat !important;
   background-size: COVER !important;
   height: 142px;
@@ -2763,7 +2763,7 @@ footer .boot-b .nav a:hover {
 .administraiton--home--section .right--block article p {
   color: #3b3b3b;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 2;
   margin: 21px 0;
   float: left;
@@ -2812,7 +2812,7 @@ footer .boot-b .nav a:hover {
   float: left;
   height: 265px;
   width: 50%;
-  background-position: CENTER CENTER !important;
+  background-position: CENTER CENTER;
   background-repeat: no-repeat !important;
   background-size: COVER !important;
   position: relative;
@@ -2925,17 +2925,21 @@ footer .boot-b .nav a:hover {
   left: 11%;
   background: #fff;
 }
+.administraiton--home--section .right--block .table-ons .min-bot {
+  margin-bottom: 25px !important;
+}
 .administraiton--home--section .right--block .non-line .one {
   width: 40%;
   margin-bottom: 60px;
 }
 .administraiton--home--section .right--block .non-line .one .one-block .title .title-desc {
-  width: 210px;
-  margin-left: -107px;
+  width: 214px;
+  margin-left: -115px;
   padding: 10px 0;
 }
 .administraiton--home--section .right--block .non-line::after {
   border-bottom: solid 0px !important;
+  margin: 0px !important;
 }
 .administraiton--home--section .right--block .table-ons::after {
   content: '';
@@ -2974,7 +2978,7 @@ footer .boot-b .nav a:hover {
 .administraiton--home--section .right--block .content--slider--block .slider--wrapper .slide {
   height: 100%;
   float: left;
-  background-position: CENTER CENTER !important;
+  background-position: CENTER CENTER;
   background-repeat: no-repeat !important;
   background-size: COVER !important;
   position: relative;
@@ -3040,6 +3044,10 @@ footer .boot-b .nav a:hover {
   -o-transform: rotate(180deg);
   /* Для Opera */
   transform: rotate(180deg);
+}
+.administraiton--home--section .right--block .slider--block--h2 {
+  height: 420px;
+  margin-bottom: 80px;
 }
 @media screen and (min-width: 1200px) and (max-width: 1400px) {
   .wrapper {
@@ -3178,6 +3186,21 @@ footer .boot-b .nav a:hover {
   }
   .administraiton--home--section .left-block ul li {
     padding: 7px 0 !important;
+  }
+  .administraiton--home--section .right--block article .gerb {
+    margin-right: 0px;
+  }
+  .administraiton--home--section .right--block article h2 {
+    font-size: 20px;
+  }
+  .administraiton--home--section .right--block .title--block {
+    float: left;
+    width: 100%;
+    background-position: CENTER LEFT !important;
+    background-repeat: no-repeat !important;
+    background-size: COVER !important;
+    height: 100px;
+    display: table;
   }
 }
 @media screen and (min-width: 1200px) and (max-width: 1400px) {

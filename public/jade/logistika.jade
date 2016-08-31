@@ -1,0 +1,63 @@
+doctype html
+html
+  head
+    include include/head.jade
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,700italic,800&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+  body
+    include include/header.jade      
+    div.wrapper
+        section.administraiton--home--image(style="background:url(img/dorogi.jpg)")
+            .content
+                .middle
+                    h1 Транспорт и логистика
+        section.administraiton--home--section
+            .content
+                include include/ad-sub-menu.jade
+                .right--block
+                    .title--block(style="background: url(img/bg-title-block3.jpg)")
+                        .middle
+                            h2 Климат Смоленска и области
+                    article
+                        p <b>Кратчайший путь из Центральной России в Западную Европу</b> (расстояние от Смоленска до Берлина – 1470 км)
+                    .table-ons.non-line
+                    
+                        .one.min-bot
+                            .one-block
+                                .middle
+                                    div.title <span class="big">177,5</span>, <span class="min">млн. т-км</span>
+                                        .title-desc Грузооборот
+                        
+                    
+                        .one.min-bot
+                            .one-block
+                                .middle
+                                    div.title  <span class="big">55,8</span>, <span class="min">млн. пасс.-км</span>
+                                        .title-desc Пассажирооборот
+                    article
+                        h2 Основные транспортные магистрали
+                                        
+                    .table-ons.non-line
+                        
+                    
+                        .one
+                            .one-block
+                                .middle
+                                    div.title <span class="big">14364</span> <span class="min">км</span>
+                                        .title-desc Протяжённость <br>автомобильных дорог
+                                            
+                        .one
+                            .one-block
+                                .middle
+                                    div.title <span class="big">1259</span> <span class="min">км</span>
+                                        .title-desc Длина железных <br>дорог общего пользования
+                    article
+                        h2 Крупные ж/д узлы
+
+
+                        
+        include include/footer.jade
+    
+                    
+
+
+                        

@@ -1,7 +1,7 @@
  $(document).ready(function() {
   var lang = 0; 
      widthPage =  $(window).width(); 
-     sliderWidth = $('#slider-wrapper').width();
+     sliderWidth = $('.content--slider--block').width();
      colSlide = $('#slider-wrapper .slide').length;
      sliderColWidth = colSlide * sliderWidth;
      sliderClick = 0;
@@ -286,5 +286,15 @@ titleClick3 = 0;
 });   
 
 
-
+$(window).resize(function() {
+sliderWidth = $('.content--slider--block').width();    
+sliderClick = 0;
+sliderPosition = 0;  
+sliderColWidth = colSlide * sliderWidth;    
+$('#slider-wrapper').css('width' , sliderColWidth);
+$('.slide').css('width' , sliderWidth);
+    
+   
+    
+});
  
