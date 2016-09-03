@@ -334,54 +334,54 @@ lang = 0;
 
 
      
-  $(window).scroll(function() {
-      var      
-     heightHeader = $('header').height();
-     heightContentBlock = $('.right--block').height();
-     heightContentWindow = $(window).height();
-     toTop = $(window).scrollTop();
+//$(window).scroll(function() {
+//var      
+//heightHeader = $('header').height();
+//heightContentBlock = $('.right--block').height();
+//heightContentWindow = $(window).height();
+//toTop = $(window).scrollTop();
 
       
       
-     if (($(this).scrollTop() >= 462)) {
+//if (($(this).scrollTop() >= 462)) {
          
-    $('#left-sub-menu').css('position' , 'fixed');
-    $('#left-sub-menu').css('top' , heightHeader);
+//$('#left-sub-menu').css('position' , 'fixed');
+//$('#left-sub-menu').css('top' , heightHeader);
 
          
-     } else {
+//} else {
     
-    $('#left-sub-menu').css('position' , 'relative');
-    $('#left-sub-menu').css('top' , 0);   
+//$('#left-sub-menu').css('position' , 'relative');
+//$('#left-sub-menu').css('top' , 0);   
          
          
-     }
+//}
       
       
       
       
-           if (($(this).scrollTop() > 462 + heightContentBlock - heightContentWindow)) {
+//if (($(this).scrollTop() > 462 + heightContentBlock - heightContentWindow)) {
 
          
-$('#title-block4').removeClass('active');
-$('#sub-4 li').fadeOut(0);
-titleClick4 = 0;  
-$('#title-block2').removeClass('active');
-$('#sub-2 li').fadeOut(0);
-titleClick2 = 0;  
-$('#title-block1').removeClass('active');
-$('#sub-1 li').fadeOut(0);
-titleClick1 = 0; 
-$('#title-block3').removeClass('active');
-$('#sub-3 li').fadeOut(0);
-titleClick3 = 0;  
+//$('#title-block4').removeClass('active');
+//$('#sub-4 li').fadeOut(0);
+//titleClick4 = 0;  
+//$('#title-block2').removeClass('active');
+//$('#sub-2 li').fadeOut(0);
+//titleClick2 = 0;  
+//$('#title-block1').removeClass('active');
+//$('#sub-1 li').fadeOut(0);
+//titleClick1 = 0; 
+//$('#title-block3').removeClass('active');
+//$('#sub-3 li').fadeOut(0);
+//titleClick3 = 0;  
          
-     }
+     //}
       
       
       
 
-});   
+//});   
 
 
 $(window).resize(function() {

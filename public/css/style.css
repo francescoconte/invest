@@ -1264,7 +1264,7 @@ header .lang-b #sb {
   background-position: CENTER CENTER;
   background-repeat: no-repeat !important;
   background-size: COVER !important;
-  min-height: 900px;
+  min-height: 500px;
   display: block;
   width: 100%;
 }
@@ -2808,11 +2808,30 @@ footer .boot-b .nav a:hover {
 .administraiton--home--image .content {
   height: 100%;
   display: table;
+  text-align: center;
 }
 .administraiton--home--image h1 {
   color: #fff;
   font-size: 44px;
   text-align: center;
+}
+.administraiton--home--image .button-preza {
+  display: inline-block;
+  background-color: #38c117;
+  font-weight: 700;
+  color: #fff;
+  padding: 17px 35px 19px;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-top: 40px;
+  border-radius: 25px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.administraiton--home--image .button-preza:hover {
+  background: #33ad15;
 }
 .administraiton--home--section {
   margin-top: 82px;
