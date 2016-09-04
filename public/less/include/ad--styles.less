@@ -72,11 +72,28 @@ i {font-weight: 400; font-style: normal;}}
 }.big-block {width: 100%;}
 .image-block-2 {.image-txt-block {.title-desk{font-size: 16px;}}}    
 } 
-    
-    
 }
     
-    .art-non-top {padding-top: 0px;}
+.table-lines {float: left; width: 100%; display: block;
+.line {float: left; width: 100%; height: 80px; padding: 15px 45px;
+.one-block {float: left; width: 31%; display: inline-table; padding-right: 25px;    
+span {line-height: 1.7; position: relative; display: block;}
+.import::after {content:'(импорт, тыс.дол.)'; display: none; margin-left: 15px; font-size: 12px; }   
+.export::after {content:'(экспорт, тыс.дол.)'; display: none; margin-left: 15px; font-size: 12px; }      
+} 
+.one-block-big {width: 38%;}    
+    
+} 
+    .line:first-child {height: 60px;} .green {background: #e9faf0;}   
+
+}
+
+
+
+    
+    
+    
+.art-non-top {padding-top: 0px;}
     
 .table-ons {float: left; width: 100%; padding: 0px 25px; 
 .one {float: left; display: inline-block; width: 33.333333%; position: relative; height: 85px;
@@ -220,5 +237,16 @@ position: relative !important; display: block !important; bottom: 0px !important
     height: 100px;
     display: table;
 }
+    
+.administraiton--home--section .right--block .table-lines .line .one-block-big {width: 100% !important;height: 60px;}
+.administraiton--home--section .right--block .table-lines .line .one-block {width: 100% !important}
+.administraiton--home--section .right--block .table-lines .line {height: auto;}
 
+.import::after {display:inline-block !important; font-weight: 600; }   
+.export::after { display:inline-block !important; font-weight: 600; }    
+
+.administraiton--home--section .right--block .table-lines .line:first-child {
+    display: none;
+}
+    
 }
